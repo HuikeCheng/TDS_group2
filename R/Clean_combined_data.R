@@ -158,5 +158,19 @@ data_full[data_full$eid == "6024691",]
 # a <- which(grepl("^UKB_ICD9", colnames(data_full)))
 # data_full <- data_full[,-c(a)]
 
+#################### buffering window ####################
+data_full <- data_full %>% mutate(diag_6_mon = ifelse(difftime(date_diagnosis, date_recr) > 180, 1, 0))
+data_full$diag_6_mon <- ifelse(data_full$case == 0, 0, data_full$diag_6_mon)
+summary(data_full$diag_6_mon)
+table(data_full$case, data_full$diag_6_mon)
+sum(data_full$diag_6_mon)
+
+############ dataset with > 6 diag only
+buf_data <- data_full %>% filter(!(prevalent_case == 1))
+buf_data <- buf_data %>% filter(!(diag_6_mon == 0 & incident_case == 1))
+table(buf_data$case, buf_data$diag_6_mon)
+
+
 # ######## save data file ############
 # saveRDS(data_full, file = "data/full_data.rds")
+# saveRDS(buf_data, file = "data/data_buf.rds")
