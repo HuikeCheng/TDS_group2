@@ -52,4 +52,5 @@ as.data.frame(na_prct)
 #create_report(data = baseline_data[, c(6:42, 55)])
 
 ############# ggplots group by case-control status #############
+
 ############# consider using rmarkdown #############
