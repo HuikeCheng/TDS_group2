@@ -1,0 +1,47 @@
+"","coef","exp(coef)","se(coef)","z","Pr(>|z|)","2.5 %","97.5 %"
+"SexMale",0.13,1.14,0.03,3.96,0,1.07,1.22
+"Smoke_status.0.0Current",0.27,1.31,0.05,5.88,0,1.2,1.44
+"Smoke_status.0.0Previous",0.17,1.19,0.03,5.68,0,1.12,1.26
+"Ethnicity.0.0Prefer not to answer",0.46,1.59,0.21,2.15,0.03,1.04,2.41
+"Ethnicity.0.0Do not know",-0.08,0.92,0.5,-0.16,0.88,0.35,2.47
+"Ethnicity.0.0White",-0.23,0.8,0.38,-0.6,0.55,0.38,1.67
+"Ethnicity.0.0Mixed",NA,NA,0,NA,NA,NA,NA
+"Ethnicity.0.0Asian or Asian British",0.24,1.27,1,0.24,0.81,0.18,9.07
+"Ethnicity.0.0Black or Black British",-0.36,0.7,0.58,-0.62,0.54,0.22,2.17
+"Ethnicity.0.0Chinese",0.46,1.59,0.41,1.13,0.26,0.71,3.55
+"Ethnicity.0.0Other ethnic group",0.44,1.55,0.16,2.73,0.01,1.13,2.12
+"Ethnicity.0.0Irish",0.1,1.11,0.09,1.17,0.24,0.93,1.32
+"Ethnicity.0.0Any other white background",0.09,1.1,0.08,1.13,0.26,0.93,1.29
+"Ethnicity.0.0White and Black Caribbean",0.19,1.21,0.5,0.39,0.7,0.45,3.24
+"Ethnicity.0.0White and Black African",0.45,1.57,0.71,0.64,0.52,0.39,6.29
+"Ethnicity.0.0White and Asian",-0.11,0.9,0.5,-0.22,0.82,0.34,2.39
+"Ethnicity.0.0Any other mixed background",0.25,1.28,0.35,0.7,0.49,0.64,2.56
+"Ethnicity.0.0Indian",0.07,1.08,0.14,0.53,0.6,0.82,1.42
+"Ethnicity.0.0Pakistani",0.08,1.09,0.25,0.33,0.74,0.67,1.76
+"Ethnicity.0.0Bangladeshi",0.05,1.05,1,0.05,0.96,0.15,7.49
+"Ethnicity.0.0Any other Asian background",0.34,1.41,0.29,1.18,0.24,0.8,2.49
+"Ethnicity.0.0Caribbean",-0.03,0.97,0.13,-0.23,0.82,0.75,1.25
+"Ethnicity.0.0African",0.11,1.12,0.19,0.6,0.55,0.77,1.62
+"Ethnicity.0.0Any other Black background",NA,NA,0,NA,NA,NA,NA
+"BMI.0.0",0.03,1.03,0,8.82,0,1.02,1.03
+"Age_recr_continuous.0.0",0,1,0,-2.16,0.03,0.99,1
+"Alcohol_freq.0.0daily",-0.4,0.67,0.06,-7.07,0,0.6,0.75
+"Alcohol_freq.0.0monthly",-0.26,0.77,0.06,-4.09,0,0.68,0.87
+"Alcohol_freq.0.0rarely",-0.04,0.96,0.06,-0.67,0.5,0.85,1.08
+"Alcohol_freq.0.0weekly1_2",-0.3,0.74,0.05,-5.46,0,0.67,0.83
+"Alcohol_freq.0.0weekly3_4",-0.44,0.64,0.06,-7.72,0,0.58,0.72
+"highest_Education0A_level",0.01,1.01,0.09,0.1,0.92,0.85,1.19
+"highest_Education0College",0,1,0.05,-0.01,0.99,0.91,1.1
+"highest_Education0CSE",0.1,1.11,0.07,1.5,0.13,0.97,1.27
+"highest_Education0GCSE",0.02,1.02,0.04,0.44,0.66,0.94,1.1
+"highest_Education0NVQ",0.17,1.18,0.05,3.62,0,1.08,1.29
+"highest_Education0Others",0.17,1.19,0.04,4.4,0,1.1,1.29
+"Wbc_count.0.0",0.03,1.03,0,20.93,0,1.03,1.03
+"Rbc_count.0.0",-0.39,0.68,0.04,-10.91,0,0.63,0.73
+"Rbc_width.0.0",0.14,1.15,0.01,15.88,0,1.13,1.16
+"Plt_count.0.0",0,1,0,4.04,0,1,1
+"Mean_plt_vol.0.0",-0.06,0.95,0.01,-3.98,0,0.92,0.97
+"Plt_width.0.0",0.26,1.3,0.03,10.15,0,1.24,1.37
+"Reticulocyte_count.0.0",1.36,3.9,0.3,4.47,0,2.15,7.1
+"Mean_reticulocyte_vol.0.0",0.01,1.01,0,4.1,0,1,1.01
+"Ir_fraction.0.0",0.72,2.06,0.24,3.02,0,1.29,3.3

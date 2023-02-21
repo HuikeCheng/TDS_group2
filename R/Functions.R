@@ -12,6 +12,14 @@ count_not_na <- function(x) {sum(!is.na(x))}
 ############# percentage na
 prct_na <- function(x) {round(sum(is.na(x))/length(x),3)}
 
+############ compare logical vectors
+cmp_lgl <- function(a, b, o1, o2, o3, o4) {
+  x <- ifelse(a & b, o1, 
+               ifelse(a == T & b == F, o2, 
+                      ifelse(a == F & b == T, o3, o4)))
+  return(x)
+}
+
 ############# get nrow for an element ##############
 # get_ele_row <- function(x) {dim(x)[[1]]}
 
