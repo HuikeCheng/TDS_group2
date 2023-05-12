@@ -1,0 +1,16 @@
+Model,Variables,AUC
+Blood cancer vs control,Covariates,
+   Stability selection,Covariates + blood counts,
+   RF,Covariates + blood counts,0.7
+Lymphoid vs control,Covariates,0.58
+   Stability selection,Covariates + blood counts,0.62
+   RF,Covariates + blood counts,0.65
+   XGBoost,Covariates + blood counts,0.59
+Myeloid vs control,Covariates,0.64
+   Stability selection,Covariates + blood counts,0.73
+   RF,Covariates + blood counts,0.75
+   XGBoost,Covariates + blood counts,0.7
+Other vs control,Covariates,0.63
+   Stability selection,Covariates + blood counts,0.74
+   RF,Covariates + blood counts,0.75
+   XGBoost,Covariates + blood counts,0.71

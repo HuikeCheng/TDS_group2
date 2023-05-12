@@ -1,0 +1,5 @@
+Model,Variables,C-index
+Blood cancer vs control,Covariates,0.61
+Stability selection,Covariates + blood counts,0.66
+PAM,Covariates + cluster,0.63
+C-KM,Covariates + cluster,0.63

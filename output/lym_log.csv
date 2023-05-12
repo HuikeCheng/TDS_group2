@@ -1,0 +1,31 @@
+"","Estimate","2.5 %","97.5 %","p-value"
+"(Intercept)",0.67,0.19,2.36,0.535
+"SexMale",1.34,1.19,1.52,2.29e-06
+"Age_recr_continuous.0.0",0.99,0.98,0.99,0.000767
+"BMI.0.0",1.05,1.04,1.06,6.14e-19
+"Ethnicity.0.0African",0.86,0.44,1.66,0.661
+"Ethnicity.0.0Asian",0.96,0.62,1.46,0.836
+"Ethnicity.0.0Caribbean",0.6,0.36,0.97,0.0401
+"Ethnicity.0.0Prefer not to answer",1.96,1.02,3.77,0.0428
+"Ethnicity.0.0Mixed",0.67,0.24,1.66,0.402
+"Ethnicity.0.0Other",2.22,1.16,4.28,0.0159
+"Smoke_status.0.0Current",1.28,1.07,1.52,0.00642
+"Smoke_status.0.0Previous",1.17,1.05,1.29,0.00288
+"Alcohol_freq.0.0daily",0.58,0.47,0.71,2.49e-07
+"Alcohol_freq.0.0monthly",0.68,0.54,0.85,0.000887
+"Alcohol_freq.0.0rarely",0.84,0.67,1.06,0.138
+"Alcohol_freq.0.0weekly1_2",0.64,0.52,0.78,1.28e-05
+"Alcohol_freq.0.0weekly3_4",0.54,0.44,0.67,5.32e-09
+"highest_Education0A_level",0.88,0.66,1.17,0.381
+"highest_Education0College",1.02,0.87,1.2,0.775
+"highest_Education0CSE",0.95,0.74,1.21,0.668
+"highest_Education0GCSE",0.99,0.86,1.13,0.86
+"highest_Education0NVQ",1.21,1.04,1.42,0.0163
+"highest_Education0Others",1.32,1.15,1.51,9.36e-05
+"Wbc_count.0.0",1.04,1,1.08,0.055
+"Rbc_count.0.0",0.55,0.45,0.67,6.02e-09
+"Haemoglobin_conc.0.0",0.89,0.83,0.97,0.00525
+"Rbc_width.0.0",1.29,1.22,1.37,3.27e-17
+"Plt_crit.0.0",0.02,0.01,0.07,7.68e-12
+"Lymphocyte_count.0.0",1.3,1.21,1.39,2.02e-14
+"Monocyte_count.0.0",1.6,1.22,2.14,0.000981

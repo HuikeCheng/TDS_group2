@@ -1,0 +1,7 @@
+Model,Variables,C-index (Train),C-index (Test)
+Covariates,Covariates,0.57,0.61
+Stability_selection,Covariates + blood counts,0.62,0.66
+KM,Covariates + cluster,0.59,0.63/0.63
+PAM,Covariates + cluster,0.59,0.63/0.63
+C-KM,Covariates + cluster,0.59,0.63/0.62
+C-PAM,Covariates + cluster,0.59,0.63/0.63
